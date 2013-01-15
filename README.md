@@ -1,6 +1,6 @@
 build-scripts
 =============
 
-Various scripts to build various packages not natively available in my preferred platform.
+Various scripts to build various packages not natively available on my preferred platform (Ubuntu server).
 
 May server some purpose or not!
