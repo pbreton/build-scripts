@@ -20,3 +20,4 @@ if [ ! -f fb303-build-deps_1.0_all.deb ]; then
   gdebi -n fb303-build-deps*.deb
   fi
 dpkg-buildpackage -b
+
