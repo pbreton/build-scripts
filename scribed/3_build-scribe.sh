@@ -14,7 +14,7 @@ PACKAGES=" \
 [ -d scribe ] || \
   git clone git://github.com/facebook/scribe.git scribe
 [ -d scribe/debian ] || \
-  mv scribe-debian/debian scribe/
+  cp -a scribe-debian/debian scribe/
 
 dpkg -i ./thrift/contrib/libfb303-dev_*.deb \
   ./thrift/contrib/python-fb303_0.9.0_all.deb \
